@@ -1,0 +1,111 @@
+body{
+    background-color: #252017;
+    font-family: 'Open Sans';
+    position: absolute;
+}
+    .main{
+        margin: 0 50px;
+    }
+    .hashTag{
+        color: white;
+        font-size: 30px;
+        background-color: #C84F00;
+        position: absolute;
+        top: 250px;
+        left: 49px;
+        padding: 5px 10px;
+    }
+        .main nav ul li{
+            display: inline-block; 
+        }
+            .main nav ul li a{
+            text-decoration: none;
+            padding: 20px;
+            background-color: rgba(133, 133, 133, 0.192);
+            font-size: 20px;
+            color: #DAD8D5;
+            }
+            nav{
+                display: inline-block;
+            }
+            .home_and_news{
+                margin-right: 755px;
+            }
+            .search{
+                background-color: #C84F00;
+                text-align: center;
+                font-size: 3em;
+                padding: 20px 0 20px 0;
+                margin-left: 38px;
+                margin-right: 38px;
+                color: #DAD8D5;
+            }
+            span{
+                text-decoration: underline;
+            }
+        .content{
+            background-color: white;
+            margin-left: 38px;
+            margin-right: 38px;
+        }
+            .content .text{
+                padding: 1px 15px;
+            }
+            .description{
+                width: 420px;
+                font-size: 16px;
+            }
+        .row1{
+            display: inline-block;
+            vertical-align: top;
+            position: relative;
+            left: 10px;
+        }
+            .row1 p, a{
+                color: white;
+                font-size: 15px;
+            }
+            .row1 h4{
+                background-color: #C84F00;
+                padding: 20px;
+                border-bottom: 5px solid black;
+                width: 70px;
+                margin-bottom: 5px;
+               
+            }
+            .row1 a{
+                display: block;
+                padding: 20px;
+                width: 70px;
+                margin-bottom: 5px;
+                text-decoration: none;
+                position: relative;
+                height: 10px;
+            }
+                .row1 a .numbers{
+                    width: 15px;
+                    font-size: 8px;
+                    position: relative;
+                    bottom: 18px;
+                    right: 15px;
+                    color: black;
+                    background-color: white;
+                    padding: 3px;
+                    display: inline-block;
+                }
+            .row1 .red{
+                background-color: #810000;
+                
+            }.row1 .brown{
+                background-color: #94700C;
+            }
+            .row1 .empty{
+                background-color: #EBE2CF;
+                padding: 5px 0;
+            }
+            .row1 .green{
+                background-color: #258533;
+                padding: 15px 0;
+                margin-bottom: 5px;
+                padding: 20px; 
+            }
